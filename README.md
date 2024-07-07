@@ -14,11 +14,3 @@ This repository provides a recompiled NVIDIA TensorFlow 1.15.5 pip-package withi
 -----
 
 **The compiled pip-wheel package has been placed on the release page.**
-
-| Version           | CUDA   | cuDNN       | TensorRT           |
-|-------------------|--------|-------------|--------------------|
-| nv23.03-cuda123   | 12.3.2 | 8.9.7.29    | 8.6.1.6-1+cuda12.0 |
-| nv23.03-cuda122   | 12.2.2 | 8.9.6.50    | 8.6.0.12-1+cuda12.0|
-| nv23.03-cuda121   | 12.1.1 | 8.9.0.131   | 8.5.3-1+cuda11.8   |
-| nv23.02-cuda120   | 12.0.1 | 8.8.0.121   | 8.5.3-1+cuda11.8   |
-| nv22.12-cuda118   | 11.8.0 | 8.9.6.50    | 8.5.3-1+cuda11.8   |
