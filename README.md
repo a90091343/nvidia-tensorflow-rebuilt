@@ -4,6 +4,7 @@ This repository provides a recompiled NVIDIA TensorFlow 1.15.5 pip-package withi
 
 * **Without** the need to install `nvidia-pyindex`, this package does not include bundled CUDA runtime installations like `nvidia-cuda-runtime-cu12`, `nvidia-cuda-nvcc-cu12`, `nvidia-cudnn-cu12`, etc. This allows the use of system-level or virtual environment-specific CUDA runtimes, helping to save significant storage space.
 
+* Requires the installation of `libnccl2`
 
 ### **How to build the pip-wheel:** 
 1. Build the Dockerfile based on the required CUDA version.
